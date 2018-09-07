@@ -16,7 +16,7 @@ class App extends Component {
             <div className="name">
               <h1 className="mb-1">Lorena L. Vázquez Ornelas</h1>
               <h3 className="mb-5">
-                <em> Jr Frontend Web Developer & Business</em>
+                <em> Frontend Web Developer & Business</em>
               </h3>
             </div>
             <a className=" btn" href="#portfolio">Portafolio</a>

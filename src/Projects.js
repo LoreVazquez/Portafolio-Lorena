@@ -4,7 +4,7 @@ import './App.css';
 class Projects extends React.Component {
   render() {
     return (
-        <section className="content-section" id="portfolio">
+        <section className="content-section width" id="portfolio">
           <div className="container">
             <div className="content-section-heading text-center">
               <h3 className="text-secondary mb-0">Portafolio</h3>

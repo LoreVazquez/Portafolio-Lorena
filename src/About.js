@@ -4,7 +4,7 @@ import './App.css';
 class About extends React.Component {
   render() {
     return (
-      <div  id="about" className="row divider">
+      <div  id="about" className="width row divider">
         <div className="col col-2 d-flex align-items-center vertical">
             <h3 className="rotation">Presentación</h3>
         </div>

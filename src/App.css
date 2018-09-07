@@ -18,6 +18,14 @@ body {
   font-family: 'Source Sans Pro';
 }
 
+.width{
+  width: 100%;
+}
+
+.n-margin{
+  margin: 0px;
+}
+
 header{
   position: fixed;
   z-index: 100;
@@ -67,7 +75,6 @@ h6 {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  animation: primera 5s linear;
   z-index: 200;
 }
 
@@ -111,37 +118,12 @@ nav, footer, nav a{
   font-size: 1.2rem;
 }
 
-
-/* Contact */
-
-form{
-  background-color: #f5eb5ea8;
-  border-radius: 20px;
-  margin: 15px;
-}
-
-.contact{
-  background-color: #9c9998;
-}
-
-.contact h2{
-  background-color: #fff;
-  margin: 20px 0 0 0;
-}
-
-.contact ul {
-  list-style: none;
-}
-
-.contact li{
-  margin-top: 10px;
-}
-
 /* About */
 
 .divider{
   border-top: 20px solid #9c9998;
- 
+  margin-right: 0px;
+  margin-left: 0px; 
 }
 
 .rotation{
@@ -157,6 +139,8 @@ form{
 .divider-s{
   border-top: 20px solid #3d3946;
   border-bottom: 20px solid #3d3946;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .rotation-s{
@@ -212,6 +196,7 @@ form{
   overflow: hidden;
   max-width: 530px;
   margin: auto auto 1rem;
+  text-align: center;
 }
 
 .portfolio-item .caption {
@@ -226,7 +211,8 @@ form{
 }
 
 .portfolio-item .caption .caption-content {
-  color: #fff;
+  color: black;
+  font-weight: 700;
   margin: auto 2rem 2rem;
 }
 
@@ -241,6 +227,12 @@ form{
 }
 
 @media (min-width: 992px) {
+  .caption-content{
+    background-color: #9c9998de;
+    border-radius: 20px;
+  }
+
+
   .portfolio-item {
     max-width: none;
     margin: 0;
@@ -274,5 +266,32 @@ form{
 }
 
 .space div{
+  margin: 10px;
+}
+
+/* Contact */
+
+form{
+  border-radius: 20px;
+  margin: 15px;
+}
+
+.contact{
+  background-image: url("images/diary-3299128_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact h2{
+  background-color: #fff;
+  margin: 20px 0 0 0;
+}
+
+.contact ul {
+  list-style: none;
+}
+
+.contact li{
   margin: 10px;
 }

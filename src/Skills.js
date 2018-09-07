@@ -4,7 +4,7 @@ import './App.css';
 class Skills extends React.Component {
   render() {
     return (
-      <div className="row divider-s">
+      <div className="row divider-s width">
         <div className="col col-lg-10">
           <div className="tech">
             <h4 className="text-center">Habilidades Técnicas</h4>
